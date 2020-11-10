@@ -9,4 +9,10 @@
 
 .header__icons .MuiIconButton-root{
    margin-right: 10px;
+   color: darkgrey
+}
+
+.header__iconsAnchor {
+    text-decoration: none;
+    color: inherit;
 }

@@ -1,0 +1,12 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > input{
+    width: 300px;
+}
+
+button{
+    color: inherit;
+}

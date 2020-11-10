@@ -9,15 +9,22 @@ function Header() {
     return (
         <div className="header">
             <div className='header__icons'>
-                    <IconButton>
-                    <LinkedInIcon fontSize='large'/>
+                <IconButton>
+                    <a className="header__iconsAnchor" href='https://www.linkedin.com/in/michele-mari-65926b145/' target="_blank"
+                    >
+                        <LinkedInIcon fontSize='large'/>
+                    </a>                   
                 </IconButton>
                 <IconButton>
-                     <InstagramIcon fontSize='large'/>
+                     <a className="header__iconsAnchor" href='https://www.instagram.com/michelemari/' target="_blank">
+                        <InstagramIcon fontSize='large'/>
+                     </a>
                 </IconButton>
-
                 <IconButton>
-                    <FacebookIcon fontSize='large'/>
+                     <a className="header__iconsAnchor" href='https://www.facebook.com/michele.mari.98' target="_blank">
+                        <FacebookIcon fontSize='large'/>
+                     </a>
+                    
                 </IconButton>
            </div>
             

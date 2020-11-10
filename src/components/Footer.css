@@ -3,6 +3,22 @@
     background-color:white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between ;
     border-top: 1px solid lightgray;
+    background-color: rgb(53, 53, 53);
   }
+
+  .footer__left{
+    margin-left: 15px;
+  }
+
+  .footer__left > ul li{
+    list-style: none;
+    padding: 8px;
+    color: lightgray;
+  }
+
+  .footer__right{
+    margin-right: 15px;
+  }
+
